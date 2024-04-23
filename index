@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <jsp:include page="nav.jsp" />
+  </body>
+</html>
