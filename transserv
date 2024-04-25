@@ -1,0 +1,6 @@
+package com.dell.service;
+
+public interface TransService {
+
+	public String getUserId(String transId);
+}
