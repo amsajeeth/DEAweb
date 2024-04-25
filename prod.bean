@@ -4,9 +4,9 @@ import java.io.InputStream;
 import java.io.Serializable;
 
 @SuppressWarnings("serial")
-public class ProBean implements Serializable {
+public class ProductBean implements Serializable {
 
-	public ProBean() {
+	public ProductBean() {
 	}
 
 	private String prodId;
@@ -17,7 +17,7 @@ public class ProBean implements Serializable {
 	private int prodQuantity;
 	private InputStream prodImage;
 
-	public ProBean(String prodId, String prodName, String prodType, String prodInfo, double prodPrice,
+	public ProductBean(String prodId, String prodName, String prodType, String prodInfo, double prodPrice,
 			int prodQuantity, InputStream prodImage) {
 		super();
 		this.prodId = prodId;
